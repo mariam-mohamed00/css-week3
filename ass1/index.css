@@ -1,0 +1,51 @@
+.parent{
+    background-color: hsl(212, 45%, 89%);
+    min-width: 375px;
+    max-width: 1440px;
+    height: 600px;
+    position: relative;
+}
+
+.content{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    
+}
+
+img{
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    top:5%;
+    left:50%;
+    transform: translate(-50% , -5% );
+}
+
+.child{
+    font-size: 15px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    top:4%;
+    left:50%;
+    transform: translate(-50% , -4% );
+}
+
+.one{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+}
+
+.two{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
